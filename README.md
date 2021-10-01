@@ -10,11 +10,11 @@ npm run dev
 
 php artisan storage:link
 
-artisan migrate:fresh
+php artisan migrate:fresh
 
-artisan db:seed --class=PermissionTableSeeder
+php artisan db:seed --class=PermissionTableSeeder
 
-artisan db:seed --class=CreateAdminUserSeeder
+php artisan db:seed --class=CreateAdminUserSeeder
 
 # application
 
